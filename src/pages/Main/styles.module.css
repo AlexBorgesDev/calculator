@@ -1,7 +1,17 @@
+.title {
+  margin-bottom: 16px;
+
+  font: 700 2em/1.5 'Roboto Mono', monospace;
+}
+
 .calculator {
-  width: 14.688rem; /* 235px */
-  height: 20rem; /* 320px */
+  width: 235px;
+  height: 320px;
+
+  display: grid;
+  grid-template-rows: 48px 48px 48px 48px 48px;
+  grid-template-columns: repeat(4, 25%);
 
   overflow: hidden;
-  border-radius: 0.313rem; /* 5px */
+  border-radius: 5px;
 }
