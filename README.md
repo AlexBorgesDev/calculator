@@ -9,9 +9,7 @@
 
 A simple calculator made with React.Js.
 
-> :globe_with_meridians: [Go to application website.](https://calculator-alex-react.vercel.app/)
-
-<br />
+> :paperclip: [Go to application website.](https://calculator-alex-react.vercel.app/)
 
 ## Scripts
 
