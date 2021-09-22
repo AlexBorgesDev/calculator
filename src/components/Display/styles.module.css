@@ -4,10 +4,16 @@
 
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 
   font-size: 2em;
   overflow: hidden;
 
   background-color: var(--bg-display);
+}
+
+.container > span {
+  margin-right: 8px;
+  font-size: 0.875em;
+  opacity: 0.5;
 }
