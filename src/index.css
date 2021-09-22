@@ -1,9 +1,15 @@
+:root {
+  --bg-button: #f0f0f0;
+  --border-button: solid 1px #888;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-  font-family: 'RobotoMono', monospace;
+  font-weight: 300;
+  font-family: 'Roboto Mono', monospace;
 }
 
 body {
