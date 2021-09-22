@@ -8,3 +8,24 @@
   outline: none;
   background-color: var(--bg-button);
 }
+
+.container:active {
+  background-color: var(--bg-button-active);
+}
+
+.container[data-col='2'] {
+  grid-column: span 2;
+}
+
+.container[data-col='3'] {
+  grid-column: span 3;
+}
+
+.container.operation {
+  color: #fff;
+  background-color: var(--bg-button-operation);
+}
+
+.container.operation:active {
+  background-color: var(--bg-button-operation-active);
+}
