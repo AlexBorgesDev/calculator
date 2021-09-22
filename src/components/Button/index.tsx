@@ -2,8 +2,12 @@ import { memo } from 'react'
 
 import styles from './styles.module.css'
 
-const Button = () => {
-  return <button></button>
+export interface ButtonProps {
+  label?: string | number
+}
+
+const Button = (props: ButtonProps) => {
+  return <button className={styles.container}>{props.label}</button>
 }
 
 export default memo(Button)
