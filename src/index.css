@@ -1,7 +1,11 @@
 :root {
-  --bg-button: #f0f0f0;
   --bg-display: #0004;
-  --border-button: solid 1px #888;
+
+  --bg-button: #f0f0f0;
+  --bg-button-active: #ccc;
+  --bg-button-operation: #1b998b;
+  --bg-button-operation-active: #1b998bcc;
+  --border-button: solid 1px rgba(136, 136, 136, 0.25);
 }
 
 * {
