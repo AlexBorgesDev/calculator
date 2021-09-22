@@ -1,9 +1,9 @@
 .calculator {
-  width: 235px;
-  height: 320px;
+  width: 335px;
+  height: 420px;
 
   display: grid;
-  grid-template-rows: 1fr repeat(5, 48px);
+  grid-template-rows: 1fr repeat(5, 68px);
   grid-template-columns: repeat(4, 25%);
 
   overflow: hidden;
