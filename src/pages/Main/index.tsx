@@ -1,4 +1,5 @@
 import Button from '../../components/Button'
+import Display from '../../components/Display'
 
 import styles from './styles.module.css'
 
@@ -8,6 +9,8 @@ const Main = () => {
       <h1 className={styles.title}>Calculator</h1>
 
       <div className={styles.calculator}>
+        <Display value={100} />
+
         <Button label="AC" />
         <Button label="/" />
         <Button label="7" />
