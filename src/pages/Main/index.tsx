@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 
 const Main = () => {
-  return <h1>Main</h1>
+  return <div className={styles.calculator}></div>
 }
 
 export default Main
